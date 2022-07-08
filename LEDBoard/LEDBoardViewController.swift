@@ -33,6 +33,7 @@ class LEDBoardViewController: UIViewController, UITextFieldDelegate {
         
     }
     
+    //리턴키로 키보드 내리기
     func textFieldShouldReturn(_ textField: UITextField) -> Bool{
         textField.resignFirstResponder()
         return true
